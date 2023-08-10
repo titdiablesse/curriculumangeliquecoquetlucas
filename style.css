@@ -1,11 +1,12 @@
-* Import police */
-@import 'https://fonts.googleapis.com/css2?family=Montserrat&display=swap';
 
 /* CSS PC */
 .container {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
     background-color: white;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Arial', sans-serif;
 }
 
 /* Enlève le soulignement des liens */
@@ -21,10 +22,11 @@ a:hover {
 
 /* Partie gauche */
 .leftBlock {
-    float: left;
+    
+    width: 45%;
     background-color: #a190ff;
-    padding: 20%;
-    overflow-x: auto;
+    padding: 1%;
+   
 }
 
 /* Photo */
@@ -66,7 +68,7 @@ a:hover {
 
 /* Coordonnées/Hobbies */
 .leftBlock .uppertitle {
-
+    
     font-size: 21px;
     color: #c0fdff;
     text-shadow: 1px 1px #72f0f5;
@@ -89,13 +91,10 @@ a:hover {
 
 /* Partie droite */
 .rightBlock {
-    float: right;
-    background-color: #c0fdff;
-    margin-right: -10%;
-    padding-right: 2%;
-    padding-left: 2%;
-    padding-bottom: 1%;
-    overflow-x: auto;
+    width: 45%;
+       background-color: #c0fdff;
+    padding : 1%;
+
 }
 
 /* Compétences/Expérience/Formations */
@@ -127,14 +126,6 @@ a:hover {
     box-shadow: 2px 2px 0px 0px #5272fd;
 }
 
-/* Responsive téléphone (testé uniquement sur Samsung Galaxy S8 et page responsive web)
-@media screen and (max-width: 800px) {
-    .rectangle {
-        width:120px;
-        height:120px;
-    } */
 
-    .rightBlock {
-        padding-right: 500px;
-    }
+
   
