@@ -5,7 +5,7 @@
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    background-color: white;
+    background-color: rgb(245, 245, 245);
     font-family: 'Arial', sans-serif;
 }
 
@@ -13,7 +13,7 @@
 a {
     text-decoration: none;
     padding-right: 1px;
-    color: white;
+    color: rgb(228, 214, 214);
 }
 
 a:hover {
@@ -24,7 +24,7 @@ a:hover {
 .leftBlock {
     
     width: 45%;
-    background-color: #a190ff;
+    background-color: #a599ee;
     padding: 1%;
    
 }
@@ -43,45 +43,49 @@ a:hover {
 
 /* Nom prénom profession */
 .name {
-    font-size: 25px;
-    color: white;
-    text-shadow: 2px 2px grey;
+    font-size: 30px;
+    color: #77dfe2(5, 5, 5);
+    text-shadow: 1px 1px #77dfe2(5, 5, 5);
 }
 
 .name .subname {
-    font-size: 15px;
+    font-size: 20px;
     text-shadow: 2px 2px grey;
 }
 
 /* Profil */
 .supertitle {
-    font-size: 21px;
-    color: #c0fdff;
+    font-size: 30px;
+    color: #5cdbdb;
     padding-top: 10%;
-    text-shadow: 1px 1px #72f0f5;
+    text-shadow: 10px 1x #17939c;
 }
 
 .aboutme {
-    font-size: 10px;
-    color: #e6e6e6;
+    font-size: 20px;
+    color: #080808;
 }
 
 /* Coordonnées/Hobbies */
 .leftBlock .uppertitle {
     
-    font-size: 21px;
-    color: #c0fdff;
-    text-shadow: 1px 1px #72f0f5;
+    font-size: 30px;
+    color: #5cdbdb;
+    text-shadow: 1px 1px #17939c;
 }
 
 .location {
-    font-size: 13px;
-    color: #e6e6e6;
+    font-size: 30px;
+    color: #0a0a0a;
 }
 
 .hobbies {
-    font-size: 13px;
-    color: #e6e6e6;
+    font-size: 30px;
+    color: #242222;
+}
+.benevolat {
+    font-size: 40px;
+    color: #242222;
 }
 
 /* Barre sous les titres */
@@ -99,25 +103,25 @@ a:hover {
 
 /* Compétences/Expérience/Formations */
 .rightBlock .uppertitle {
-    font-size: 21px;
-    color: #90a4ff;
+    font-size: 40px;
+    color: #ae7ee6;
     text-shadow: 1px 1px #5272fd;
 }
 
 /* Titre */
 .rightBlock .title {
-    font-size: 19px;
+    font-size: 30px;
 }
 
 /* Date */
 .rightBlock .subtitle {
-    font-size: 15px;
+    font-size: 30px;
     color: #585656;
 }
 
 /* Texte */
 .rightBlock .text {
-    font-size: 13px;
+    font-size: 30px;
     color: #585656;
 }
 
