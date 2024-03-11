@@ -20,7 +20,7 @@ body {
 }
 
 .leftBlock {
-    flex: 0.75;
+    flex: 1;
     background-color: #dec4e9; /* Couleur attrayante */
     padding: 20px;
 }
@@ -41,7 +41,9 @@ body {
 }
 
 /* Couleur pour les titres de la partie droite */
-.rightBlock h1.name strong,
+.rightBlock h1.name strong { 
+    color:aqua
+}
 .rightBlock h2.supertitle,
 .rightBlock h2.uppertitle,
 .rightBlock h3.title {
